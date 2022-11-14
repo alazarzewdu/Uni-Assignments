@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:rowCount="5"
+        android:columnCount="7"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="120dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="120dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_marginTop="120dp"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="4"/>
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_marginTop="120dp"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="5"/>
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_marginTop="120dp"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="6"/>
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_marginTop="120dp"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="7"/>
+        <!-- second row -->
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="8"/>
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="9"/>
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="10" />
+
+        <Button
+            android:id="@+id/b11"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="11" />
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="12" />
+
+        <Button
+            android:id="@+id/b13"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="13" />
+
+        <Button
+            android:id="@+id/b14"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="14" />
+        <!-- third row -->
+        <Button
+            android:id="@+id/b15"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="15" />
+
+        <Button
+            android:id="@+id/b16"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="16" />
+
+        <Button
+            android:id="@+id/b17"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="17" />
+
+        <Button
+            android:id="@+id/b18"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="18" />
+
+        <Button
+            android:id="@+id/b19"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="19" />
+
+        <Button
+            android:id="@+id/b20"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="20" />
+
+        <Button
+            android:id="@+id/b21"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="21" />
+<!-- Fifth row -->
+        <Button
+            android:id="@+id/b22"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="22" />
+
+        <Button
+            android:id="@+id/b23"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="23" />
+
+        <Button
+            android:id="@+id/b24"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="24" />
+
+        <Button
+            android:id="@+id/b25"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="25" />
+
+        <Button
+            android:id="@+id/b26"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="26" />
+
+        <Button
+            android:id="@+id/b27"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="27" />
+
+        <Button
+            android:id="@+id/b28"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="28" />
+
+        <!-- Fifth row -->
+        <Button
+            android:id="@+id/b29"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="29" />
+
+        <Button
+            android:id="@+id/b30"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="30" />
+
+        <Button
+            android:id="@+id/b31"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:padding="1dp"
+            android:backgroundTint="@color/silver"
+            android:textColor="@color/black"
+            android:text="31" />
+
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

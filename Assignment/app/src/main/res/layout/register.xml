@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FDED54">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_logo">
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="35sp"
+
+            android:text="Unity Registration">
+
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="first name"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="-40dp">
+
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Middle Name:"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:hint="middle name"
+            android:layout_marginTop="-40dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name:"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:hint="last name"
+            android:layout_marginTop="-40dp">
+
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nationality:"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext5"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:hint="Nationality"
+            android:layout_marginTop="-40dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <RadioGroup
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Male">
+
+            </RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-48.5dp"
+
+                android:text="Female">
+
+            </RadioButton>
+        </RadioGroup>
+
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext6"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="-40dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department:"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/edittext8"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:hint="Department"
+            android:layout_marginTop="-40dp">
+
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campus:"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext7"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:hint="Campus"
+            android:layout_marginTop="-40dp">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="45dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-48dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

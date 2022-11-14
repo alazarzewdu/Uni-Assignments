@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="B1"
+            android:backgroundTint="@color/purple_200"
+            android:textSize="15sp"></Button>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="15dp"
+            android:text="B2"
+            android:backgroundTint="@color/purple_200"
+            android:textSize="15sp"></Button>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="15dp"
+            android:text="B3"
+            android:backgroundTint="@color/purple_200"
+            android:textSize="15sp"></Button>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="0dp"
+            android:text="B4"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="15sp"></Button>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="150dp"
+            android:text="B5"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="15sp"></Button>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="300dp"
+            android:text="B6"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="15sp"></Button>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="100dp"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="Enter text here"
+            android:inputType="text"
+            android:textSize="13sp"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User-Interface"
+            android:layout_marginTop="100dp"></TextView>
+
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="160dp"
+            android:text="Activity"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="150dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:text="Alazar Zewdu">
+
+        </TextView>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
